@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Spectral:wght@300;400;500;600;700&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #4D366E; 
+ padding-left: 20px;
+ padding-right: 20px;
+ font-family: 'Spectral', serif;
+}
+
+h1 {
+  color: #997EBF;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+h2 {
+  color: #D3C5E8;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+h3 {
+  color: #A78DCC;
+  font-family: 'Comfortaa', cursive;
+}
+
+p {
+  color: #D3C5E8;
+  font-family: 'Spectral', serif;
+}
+
+a {
+  color: #D3C5E8;
+  font-family: 'Spectral', serif;
+}
+
+li {
+  color: #D3C5E8;
+  font-family: 'Spectral', serif;
+}
+
+ul {
+  margin-left: 20px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+ol {
+  margin-left: 20px;
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+
+.buttonfact {
+  text-align: center;
+  background-color: #A78DCC;
+  color: #4D366E; 
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.small-image {
+  width: 10%;
+  margin: 0 auto;
+  display: block;
+}
+
+.large-image {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+button {
+  background-color: #A78DCC;
+  color: #4D366E;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+button:hover {
+  background-color: #997EBF;
+}
